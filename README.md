@@ -4,14 +4,7 @@
 <hr>
 
 ## Установка
-1) С помощью установщика pip из PyPi:
-   
-   Последний стабильный релиз:
-   ```sh
-   pip install vkbottle==2.7.8
-   ```
-
-2) С помощью установщика pip из GitHub: 
+С помощью установщика pip из GitHub: 
    
    ```sh
    pip install https://github.com/amfili/pycoloram/archive/main.zip --upgrade
@@ -24,12 +17,9 @@
 
 Доступны следующие разделы:  
 
-* [Первый бот на vkbottle](./docs/getting_started.md) - пособие для новичков, краткое введение
-   
+* [Работа с цветом](./docs/getting_started.md) - пособие для новичков, краткое введение
 
 
-
-#
 ### Наши официальные чаты
 
 <a href="https://t.me/vkbottle_ru">
@@ -43,5 +33,5 @@
 
 ## Лицензия
 
-Copyright © 2019-2020 [timoniq](https://github.com/timoniq).  
+Copyright © 2020 [amfili](https://github.com/amfili).  
 Этот проект имеет [MIT](./LICENSE) лицензию.
