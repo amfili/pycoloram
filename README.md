@@ -1,7 +1,5 @@
 <h1 align="center">PyColorAm</h1>
-<p>
     <blockquote>PyColorAm - Модуль для работы с цветным текстом в консоли. Модуль ещё тестируется и дорабатывается</blockquote>
-</p>
 <hr>
 
 ## Установка
@@ -11,10 +9,10 @@
    ```sh
    pip install https://github.com/amfili/pycoloram/archive/main.zip --upgrade
    ```
-<hr>
+
 > Минимальная версия python для комфортной работы с библиотекой - 3.7
 
-### Документация
+## Документация
 
 Доступные разделы:  
 
