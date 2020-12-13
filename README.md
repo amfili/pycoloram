@@ -1,15 +1,5 @@
-<h1 align="center">VKBottle - high quality bot building library</h1>
-<p align="center"><a href="https://pypi.org/project/vkbottle/">
-    <img alt="downloads" src="https://img.shields.io/static/v1?label=pypi%20package&message=2.7.8&color=brightgreen"></a> 
-    <a href="https://github.com/timoniq/vkbottle">
-    <img src="https://img.shields.io/static/v1?label=version&message=opensource&color=green" alt="service-test status"></a>  
-    <a href="https://t.me/vkbottle_ru">
-        <img src="https://img.shields.io/static/v1?message=Telegram%20Chat&label=&color=blue">
-    </a>
-    <a href="https://vk.me/join/AJQ1d7fBUBM_800lhEe_AwJj">
-        <img src="https://img.shields.io/static/v1?message=VK%20Chat&label=&color=blue">
-    </a>
-    <blockquote>PycColorAm - Модуль для работы с цветным текстом в консоли. Модуль ещё тестируется и дорабатывается</blockquote>
+<h1 align="center">PyColorAm</h1>
+    <blockquote>PyColorAm - Модуль для работы с цветным текстом в консоли. Модуль ещё тестируется и дорабатывается</blockquote>
 </p>
 <hr>
 
