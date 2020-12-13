@@ -4,7 +4,12 @@
 
 ## Установка
 
-С помощью установщика pip из GitHub: 
+1) С помощью установщика pip из PyPi:
+   ```sh
+   pip install pycoloram
+   ```
+
+2) С помощью установщика pip из GitHub: 
    
    ```sh
    pip install https://github.com/amfili/pycoloram/archive/main.zip --upgrade
