@@ -1,14 +1,12 @@
 [tool.poetry]
 name = "pycoloram"
-version = "1.0.1"
-description = "color(\"Text\").Red()"
-authors = ["amfili  <amfili.com@gmail.com>"]
+version = "1.0.2"
+description = "Модуль для работы с цветным текстом"
+authors = ["amfili <amfili.com@gmail.com>"]
 license = "MIT"
-repository = "https://github.com/amfili/pycoloram"
-homepage = "https://github.com/amfili/pycoloram"
 
 [tool.poetry.dependencies]
-python = "^3.4"
+python = "^3.0"
 
 [tool.poetry.dev-dependencies]
 
