@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "color(\"Text\").Red()"
 authors = ["amfili  <amfili.com@gmail.com>"]
 license = "MIT"
+repository = "https://github.com/timoniq/vkbottle"
 
 [tool.poetry.dependencies]
 python = "^3.4"
