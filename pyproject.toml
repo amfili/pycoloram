@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycoloram"
-version = "1.0.0"
+version = "1.0.1"
 description = "color(\"Text\").Red()"
 authors = ["amfili  <amfili.com@gmail.com>"]
 license = "MIT"
