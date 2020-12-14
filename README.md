@@ -20,8 +20,6 @@
    pip install https://github.com/amfili/pycoloram/archive/main.zip --upgrade
    ```
 
-> Минимальная версия python для комфортной работы с библиотекой - 3.7
-
 ## Документация
 
 Доступные разделы:  
