@@ -6,7 +6,7 @@ authors = ["amfili  <amfili.com@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^1.8"
+python = "^3.4"
 
 [tool.poetry.dev-dependencies]
 
