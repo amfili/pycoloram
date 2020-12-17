@@ -3,10 +3,10 @@ class cprint:
   def __init__(self, text):
     self.text = text
    
-  def color(self, color, bg):
+  def color(self, color, bg, eff):
     error = 0
     if color == 0:
-      color = "\033[0m"
+      color = "" 
     elif color == 1:
       color = "\033[30m"
     elif color == 2:
@@ -28,7 +28,7 @@ class cprint:
       color = "\033[31mError: No color found under this number or incorrect number entered\033[0m\n"
      
     if bg == 0:
-      bg = "\033[0m"
+      bg = ""
     elif bg == 1:
       bg = "\033[40m"
     elif bg == 2:
@@ -48,13 +48,51 @@ class cprint:
     else:
       error += 2
       bg = "\033[31mError: No backgraund-color found under this number or incorrect number entered\033[0m\n"
+
+    if eff == 0:
+      eff = ""
+    elif eff == 1:
+      eff = "\033[1m"
+    elif eff == 2:
+      eff = "\033[2m"
+    elif eff == 3:
+      eff = "\033[3m"
+    elif eff == 4:
+      eff = "\033[4m"
+    elif eff == 5:
+      eff = "\033[5m"
+    elif eff == 6:
+      eff = "\033[6m"
+    elif eff == 7:
+      eff = "\033[7m"
+    else:
+      error += 4
+      eff = "\033[31mError: No effect found under this number or incorrect number entered\033[0m\n" 
+
     if error == 1:
       print(color)
     elif error == 2:
       print(bg)
     elif error == 3:
       print(color + bg)
+    elif error == 4:
+      print(eff)
+    elif error == 5:
+      print(eff + color)
+    elif error == 6:
+      print(eff + bg)
+    elif error == 7:
+      print(eff + color + bg) 
     else:
-      print(color + bg + self.text + "\033[0m")
-   
+      print(eff + color + bg + self.text + "\033[0m")
+         
   
+
+
+#1	Жирный
+#2	Блёклый
+#3	Курсив
+#4	Подчёркнутый
+#5	Редкое мигание
+#6	Частое мигание
+#7	Смена цвета фона с цветом текста
