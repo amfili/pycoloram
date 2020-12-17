@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycoloram"
-version = "1.0.2"
+version = "1.0.3"
 description = "Модуль для работы с цветным текстом"
 authors = ["amfili <amfili.com@gmail.com>"]
 license = "MIT"
